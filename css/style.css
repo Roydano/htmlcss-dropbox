@@ -24,6 +24,10 @@ a{
 
 }
 
+.btn{
+    
+}
+
 /* sezione header */
 
 .header-top{
@@ -37,8 +41,7 @@ a{
     top: 0;
     left: 0;
     right: 0;
-
-   
+    z-index: 300;  
 
 }
 
@@ -66,9 +69,6 @@ nav a{
     font-size: 18px;
 }
 
-/* nav .none{
-    margin-left: 260px;
-} */
 
 .header-top .btn{
     display: inline-block;
@@ -81,23 +81,62 @@ nav a{
     color: white;
 }
 
+/* sezione jumbotron */
+
 .jumbotron{
-    height: 700px;
+    height: 900px;
+    position: relative;
 
 }
 
 .jumbo-box{
+    height: 800px;
+    background-color: #b4d0e7;
     padding: 150px 50px 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .jumbo-box h1{
-    font-size: 70px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;    
     letter-spacing: -3px;
     word-spacing: -9px;
     font-stretch: extra-expanded;
 }
 
+.jumbo-box p{
+    max-width: 31%;
+    line-height: 26px;
+    font-size: 20px;
+    margin-top: 30px;
+    word-spacing: 8px;
+}
+
+.jumbo-box .btn{
+    margin-top: 40px;
+}
+
+.jumbo-box .btn a{
+    margin-left: 0;
+    font-size: 18px;
+}
+
+.jumbo-box span{
+    display: inline-block;
+    margin-top: 20px;
+    
+}
+
+.jumbo-box i{
+    margin-top: 60px;
+    font-size: 50px;
+
+}
+
+.jumbo-img{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
 
 
 
@@ -126,7 +165,8 @@ nav li:hover{
     width: auto;
 }
 
-.header-top .btn:hover a{
+.header-top .btn:hover a,
+.jumbo-box .btn:hover a{
     background-color: #3b85ff;
     
 }
@@ -152,10 +192,6 @@ nav li:hover{
     background-color: red;
 } */
 
-.debug .jumbotron{
-    background-color: #b4d0e7;
-
-}
 
 
 .debug #piano-dropbox{
