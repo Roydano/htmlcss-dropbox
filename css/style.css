@@ -83,7 +83,22 @@ nav a{
 
 .jumbotron{
     height: 700px;
+
 }
+
+.jumbo-box{
+    padding: 150px 50px 0;
+}
+
+.jumbo-box h1{
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: -3px;
+    word-spacing: -9px;
+    font-stretch: extra-expanded;
+}
+
+
 
 
 /* sezione main */
