@@ -14,10 +14,40 @@
     margin: 0 auto;
 }
 
+a{
+    text-decoration: none;
+}
+
 /* sezione header */
 
 .header-top{
     height: 80px;
+    padding: 0 20px;
+    line-height: 80px;
+    vertical-align: middle;
+}
+
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+#logo{   
+    width: 120px;   
+    line-height: 80px;
+    vertical-align: middle;
+}
+
+header li{
+    display: inline-block;
+}
+
+nav .none{
+    margin-left: 700px;
+}
+.header-top .btn{
+    display: inline-block;
 }
 
 .jumbotron{
@@ -44,8 +74,15 @@ footer{
 
 
 
+/* sezione elementi flottanti */
 
+.float-sx{
+    float: left;
+}
 
+.float-dx{
+    float: right;
+}
 
 
 
