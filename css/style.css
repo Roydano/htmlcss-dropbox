@@ -24,8 +24,14 @@ a{
 
 }
 
-.btn{
-    
+/* sezione elementi flottanti */
+
+.float-sx{
+    float: left;
+}
+
+.float-dx{
+    float: right;
 }
 
 /* sezione header */
@@ -84,13 +90,14 @@ nav a{
 /* sezione jumbotron */
 
 .jumbotron{
-    height: 900px;
+    
     position: relative;
+    padding-bottom: 97px;
 
 }
 
 .jumbo-box{
-    height: 800px;
+    
     background-color: #b4d0e7;
     padding: 150px 50px 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -128,6 +135,7 @@ nav a{
 
 .jumbo-box i{
     margin-top: 60px;
+    padding-bottom: 80px;
     font-size: 50px;
 
 }
@@ -174,15 +182,7 @@ nav li:hover{
 
 
 
-/* sezione elementi flottanti */
 
-.float-sx{
-    float: left;
-}
-
-.float-dx{
-    float: right;
-}
 
 
 
