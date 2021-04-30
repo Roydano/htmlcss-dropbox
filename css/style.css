@@ -206,7 +206,7 @@ nav a{
 }
 
 /* dentro la colonna */
-/
+
 .col-title{
     text-align: center;
     padding: 10px 0;
@@ -217,8 +217,55 @@ nav a{
     font-size: 13px;
 }
 
-/* sezione informazioni dentrola colonna */
+/* informazioni dentro la colonna */
 
+/* parte alta */
+.col-info{
+    padding: 20px;
+}
+
+.type{
+    line-height: 35px;
+}
+
+.type h3{
+    font-size: 25px;
+}
+
+.service{
+    margin-top: 40px;
+}
+
+.service>div{
+    margin-bottom: 25px;
+
+}
+
+
+.btn{
+    margin-top: 50px;
+}
+
+.col .btn a{
+    margin-left: 0;
+    padding: 10px 35px;
+}
+
+.col-info>div:nth-last-child(1) {
+    margin-top: 30px;
+}
+
+div>a{
+    text-decoration: underline;
+    color: blue;
+}
+
+
+/* punti salienti */
+
+hr{
+    width: 15%;
+}
 
 /* sezione footer */
 footer{
@@ -295,3 +342,5 @@ nav li:hover{
     height: 800px;
     background-color: lightsalmon;
 }
+
+
