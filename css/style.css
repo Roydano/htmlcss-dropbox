@@ -220,7 +220,7 @@ nav a{
 /* informazioni dentro la colonna */
 
 /* parte alta */
-.col-info{
+.col{
     padding: 20px;
 }
 
@@ -239,6 +239,15 @@ nav a{
 .service>div{
     margin-bottom: 25px;
 
+}
+
+.service i{
+    vertical-align: top;
+}
+
+.service span{
+    display: inline-block;
+    width: 90%;
 }
 
 
@@ -265,6 +274,9 @@ div>a{
 
 hr{
     width: 15%;
+    margin: 20px 0;
+    color: grey;
+    font-weight: lighter;
 }
 
 /* sezione footer */
