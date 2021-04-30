@@ -42,7 +42,7 @@ a{
     line-height: 80px;
     text-align: center;
     background: white;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid lightgrey;
     position: fixed;
     top: 0;
     left: 0;
@@ -102,46 +102,62 @@ nav a{
     padding: 150px 50px 0;
     font-family: Arial, Helvetica, sans-serif;
 }
-
-.jumbo-box h1{
+ 
+/* riga del titolo del jumbotron */
+.jumbo-box .row h1{
     font-size: 70px;    
     letter-spacing: -3px;
     word-spacing: -9px;
     font-stretch: extra-expanded;
+    margin-bottom: 30px;
 }
 
-.jumbo-box p{
-    max-width: 31%;
+/* seconda riga del jumbotron */
+
+/* colonna di sinistra */
+
+.col-sx{
+    width: 30%;
+}
+
+.jumbo-box .col-sx p{
     line-height: 26px;
     font-size: 20px;
-    margin-top: 30px;
     word-spacing: 8px;
+
+
 }
 
-.jumbo-box .btn{
+.jumbo-box .col-sx .btn{
     margin-top: 40px;
 }
 
-.jumbo-box .btn a{
+.jumbo-box .col-sx .btn a{
     margin-left: 0;
     font-size: 18px;
 }
 
-.jumbo-box span{
+.jumbo-box .col-sx span{
     display: inline-block;
     margin-top: 20px;
     
 }
 
-.jumbo-box i{
+.jumbo-box .col-sx i{
     margin-top: 60px;
-    padding-bottom: 80px;
+    padding-bottom: 63px;
     font-size: 50px;
 
 }
 
+/* colonna di destra */
+
+.col-dx{
+    width: 70%;
+}
+
 .jumbo-img{
-    position: absolute;
+    position: absolute;   
     right: 0;
     bottom: 0;
 }
