@@ -30,8 +30,8 @@ a{
     vertical-align: middle;
     width: 20px;
     height: 20px;
-    background-color: red;
     border-radius: 50%;
+    border: 1px solid lightgrey;
     
 }
 
@@ -180,6 +180,14 @@ nav a{
 
 /* prima sezione - piano dropbox */
 
+.plane .check:first-child{
+    border: 5px solid #0061ff;
+}
+
+#piano-dropbox .container{
+    padding-top: 20px;
+}
+
 #piano-dropbox h2{
     
     font-size: 40px;
@@ -219,9 +227,11 @@ nav a{
 
 /* informazioni dentro la colonna */
 
-/* parte alta */
-.col{
-    padding: 20px;
+
+.col-title,
+.col-info,
+.punti-salienti{
+    padding: 10px 20px;
 }
 
 .type{
@@ -232,8 +242,14 @@ nav a{
     font-size: 25px;
 }
 
+.type div:nth-child(3) {
+    font-size: 13px;
+    color: grey;
+}
+
 .service{
     margin-top: 40px;
+    font-size: 13px;
 }
 
 .service>div{
@@ -241,7 +257,8 @@ nav a{
 
 }
 
-.service i{
+.service i,
+.punti-salienti i{
     vertical-align: top;
 }
 
@@ -262,9 +279,10 @@ nav a{
 
 .col-info>div:nth-last-child(1) {
     margin-top: 30px;
+    font-size: 13px;
 }
 
-div>a{
+.col-info span a{
     text-decoration: underline;
     color: blue;
 }
@@ -275,9 +293,36 @@ div>a{
 hr{
     width: 15%;
     margin: 20px 0;
-    color: grey;
-    font-weight: lighter;
+    border: none;
+    border-top: 1px solid lightgrey;
 }
+
+
+.punti-salienti h4{
+    margin: 40px 0 20px;
+}
+
+.punti-salienti>div{
+    margin-bottom: 15px;
+}
+
+
+.punti-salienti span{
+    display: inline-block;
+    width: 90%;
+}
+
+
+.punti-salienti i{
+    font-size: 10px;
+    color: #2a7bff;
+}
+
+.punti-salienti span{
+    font-size: 13px;
+}
+
+
 
 /* sezione footer */
 footer{
@@ -294,9 +339,14 @@ nav li:hover{
 }
 
 .header-top .btn:hover a,
-.jumbo-box .btn:hover a{
+.jumbo-box .btn:hover a,
+.col-info .btn:hover a{
     background-color: #3b85ff;
     
+}
+
+.col-info span a:hover{
+    text-decoration: none;
 }
 
 
@@ -314,10 +364,10 @@ nav li:hover{
 
 
 
-.debug #piano-dropbox{
+/* .debug #piano-dropbox{
     height: 800px;
     background-color: blue;
-}
+} */
 
 .debug #trova-partner{
     height: 500px;
