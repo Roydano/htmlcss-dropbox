@@ -13,7 +13,7 @@ body{
 }
 
 .container{
-    width: 80%;
+    width: 70%;
     max-width: 1170px;
     margin: 0 auto;
 }
@@ -22,6 +22,17 @@ a{
     text-decoration: none;
     color: black;
 
+}
+
+.check{
+    display: inline-block;
+    line-height: 20px;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%;
+    
 }
 
 /* sezione elementi flottanti */
@@ -145,7 +156,7 @@ nav a{
 
 .jumbo-box .col-sx i{
     margin-top: 60px;
-    padding-bottom: 63px;
+    padding-bottom: 60px;
     font-size: 50px;
 
 }
@@ -167,12 +178,46 @@ nav a{
 /* sezione main */
 
 
+/* prima sezione - piano dropbox */
 
+#piano-dropbox h2{
+    
+    font-size: 40px;
+    margin: 100px 0 30px 0;
+}
 
+.col{
+    width: calc(100% / 3 - 40px);
+    float: left;
+    border: 1px solid grey;
+    
+}
 
+.col.cnt{
+    margin: 0 40px;
+}
 
+.plane{
+    margin-bottom: 30px;
+}
 
+.fatturazione{
+    margin-right: 20px;
+}
 
+/* dentro la colonna */
+/
+.col-title{
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 1px solid grey;
+}
+
+.col-title i{
+    font-size: 13px;
+}
+
+/* sezione informazioni dentrola colonna */
 
 
 /* sezione footer */
@@ -244,4 +289,9 @@ nav li:hover{
 
 .debug footer{
     height: 800px;
+}
+
+.debug #piano-dropbox .col{
+    height: 800px;
+    background-color: lightsalmon;
 }
