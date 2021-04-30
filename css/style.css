@@ -201,6 +201,15 @@ nav a{
     
 }
 
+.col .last-sx{
+    padding-bottom: 42px;
+}
+
+.col .last-dx{
+    padding-bottom: 9px;
+
+}
+
 .col.cnt{
     margin: 0 40px;
 }
@@ -212,6 +221,7 @@ nav a{
 .fatturazione{
     margin-right: 20px;
 }
+
 
 /* dentro la colonna */
 
@@ -234,15 +244,21 @@ nav a{
     padding: 10px 20px;
 }
 
-.type{
+.type h3,
+.type div{
     line-height: 35px;
+}
+
+.type p{
+    line-height: 0;
 }
 
 .type h3{
     font-size: 25px;
 }
 
-.type div:nth-child(3) {
+.type div:nth-child(3),
+.type p {
     font-size: 13px;
     color: grey;
 }
@@ -321,6 +337,8 @@ hr{
 .punti-salienti span{
     font-size: 13px;
 }
+
+
 
 
 
