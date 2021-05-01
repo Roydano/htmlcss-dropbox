@@ -121,7 +121,7 @@ nav a{
     color: white;
 }
 
-/* sezione jumbotron */
+/* sezione jumbotron prima della correzione
 
 .jumbotron{
     
@@ -138,19 +138,19 @@ nav a{
 }
  
 /* riga del titolo del jumbotron */
-.jumbo-box .row h1{
+/* .jumbo-box .row h1{
     font-size: 70px;    
     letter-spacing: -3px;
     word-spacing: -9px;
     font-stretch: extra-expanded;
     margin-bottom: 30px;
-}
+} */
 
 /* seconda riga del jumbotron */
 
 /* colonna di sinistra */
 
-.col-sx{
+/* .col-sx{
     width: 30%;
 }
 
@@ -182,11 +182,11 @@ nav a{
     padding-bottom: 60px;
     font-size: 50px;
 
-}
+} */
 
 /* colonna di destra */
 
-.col-dx{
+/* .col-dx{
     width: 70%;
 }
 
@@ -194,7 +194,76 @@ nav a{
     position: absolute;   
     right: 0;
     bottom: 0;
+} */
+
+/* sezione jumbotron dopo la correzione */
+
+.jumbotron{
+    background-color: #b4d0e7;
+    position: relative;
+    
+
 }
+
+.jumbo-box{
+    padding-top: 150px;
+    width: 90%;
+    margin: 0 auto;
+    
+}
+.jumbo-box h1{
+    font-size: 70px;
+    margin-bottom: 30px;
+}
+
+.jumbo-text i{
+    margin-top: 60px;
+    padding-bottom: 60px;
+    font-size: 50px;
+}
+
+/* sezione jumbotron di sinistra con testo */
+.jumbo-text{
+    width: 30%;
+}
+
+.jumbo-text p{
+    line-height: 26px;
+    font-size: 20px;
+}
+
+.jumbo-text .btn{
+    margin-top: 40px;
+}
+
+.jumbo-text .btn a{
+    margin-left: 0;
+    font-size: 18px;
+}
+
+.jumbo-text span{
+    display: inline-block;
+    margin-top: 20px;
+    
+}
+ /* sezione jumbotron di destra con immagine */
+
+.jumbo-img{
+    width: 65%;
+    margin-left: 5%;
+    position: absolute;
+    left: 30%;
+   
+}
+
+.jumbo-img img{
+    width: 100%;
+    
+}
+
+
+
+
 
 
 
@@ -214,7 +283,7 @@ nav a{
 #piano-dropbox h2{
     
     font-size: 40px;
-    margin: 100px 0 30px 0;
+    margin: 150px 0 30px 0;
 }
 
 .col{
