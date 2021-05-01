@@ -60,9 +60,12 @@ nav li:hover{
     
 }
 
-.col-info span a:hover{
+.col-info span a:hover,
+#operazioni-dropbox p>a:hover{
     text-decoration: none;
 }
+
+
 
 
 /* sezione header */
@@ -432,6 +435,42 @@ hr{
 
 
 
+/* sezione operazioni dropbox */
+
+#operazioni-dropbox h2{
+    font-size: 40px;
+    margin: 50px 0;
+}
+
+
+#operazioni-dropbox .col{
+    width: calc(100% / 3 - 40px);
+    border: none;
+    
+}
+
+#operazioni-dropbox .col img{
+    width: 100%;
+}
+
+#operazioni-dropbox .col h3{
+    font-size: 27px;
+    margin: 20px 0;
+}
+
+#operazioni-dropbox .col p{
+    line-height: 20px;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+#operazioni-dropbox p>a{
+    text-decoration: underline;
+}
+
+
+
+
 
 
 
@@ -472,10 +511,10 @@ footer{
 
 } */
 
-.debug #operazioni-dropbox{
+/* .debug #operazioni-dropbox{
     height: 800px;
     background-color: chocolate;
-}
+} */
 
 .debug #scopri-clienti{
     height: 500px;
