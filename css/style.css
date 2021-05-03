@@ -566,7 +566,8 @@ hr{
     
 .partner{
     width: 50%;
-    line-height: 33vh;
+    height: 32vh;
+    line-height: 32vh;
     text-align: center;
     float: left;
 }
@@ -580,6 +581,39 @@ hr{
 
 .partner img.padding{
     padding: 20px;
+}
+
+/* blocco centrale */
+
+.blocco.centrale{
+    padding:80px 50px;
+    height: 64vh;
+    overflow-y: auto;
+    
+    
+}
+
+.blocco.centrale img{
+    width: 40%;
+    margin-bottom: 10px;
+    
+}
+
+.blocco.centrale p{
+    margin: 10px 0 40px;
+    line-height: 1.6;
+    font-size: 17px;
+    
+    
+}
+
+.blocco.centrale span{
+    font-size: 14px;
+}
+
+/* selezione blocco */
+.partner.select{
+    border: 10px solid rgba(255,255,255,0.5);  
 }
 
 /* colori blocchi */
@@ -655,10 +689,10 @@ footer{
     background-color: chocolate;
 } */
 
-.debug #scopri-clienti{
+/* .debug #scopri-clienti{
     height: 500px;
     background-color: green;
-}
+} */
 
 .debug #inizia-prova{
     height: 300px;
@@ -680,11 +714,11 @@ footer{
     background-color: lightsalmon;
 } */
 
-
+/* 
 .debug .blocco{
     background-color: darkorchid;
     height: 500px;
-}
+} */
 
 /* .debug .partner{
     background-color: black;
