@@ -61,7 +61,8 @@ nav li:hover{
 }
 
 .col-info span a:hover,
-#operazioni-dropbox p>a:hover{
+#operazioni-dropbox p>a:hover,
+#scopri-clienti span>a:hover{
     text-decoration: none;
 }
 
@@ -538,7 +539,48 @@ hr{
 }
 
 
+/* sezione scopri clienti */
 
+#scopri-clienti h2{
+    font-size: 50px;
+    padding: 100px 300px 30px 0;
+    
+}
+
+#scopri-clienti a{
+    font-size: 20px;
+    color: #0061ff;
+    text-decoration: underline;
+}
+
+/* blocchi aziende */
+
+.aziende-partner{
+    padding-top: 50px;
+}
+
+.blocco{
+    width: calc(100% / 3);
+    float: left;
+}
+    
+.partner{
+    width: 50%;
+    line-height: 30vh;
+    text-align: center;
+    float: left;
+}
+
+.partner img{
+    width: 60%;
+    filter: invert(1);
+    vertical-align: middle;
+    
+}
+
+.partner img.padding{
+    padding: 20px;
+}
 
 
 
@@ -611,3 +653,11 @@ footer{
 } */
 
 
+.debug .blocco{
+    background-color: darkorchid;
+    height: 500px;
+}
+
+.debug .partner{
+    background-color: black;
+}
