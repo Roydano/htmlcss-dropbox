@@ -586,7 +586,7 @@ hr{
 /* blocco centrale */
 
 .blocco.centrale{
-    padding:80px 50px;
+    padding:50px 50px;
     height: 64vh;
     overflow-y: auto;
     
@@ -616,7 +616,53 @@ hr{
     border: 10px solid rgba(255,255,255,0.5);  
 }
 
-/* colori blocchi */
+/* sezione inizia prova */
+
+#inizia-prova{
+    background-color: #b4d0e7;
+}
+
+.col-side-sx{
+    width: 70%;
+    padding: 100px 0;
+}
+
+.col-side-dx{
+    width: 30%;
+    padding: 120px 0 120px 30px;
+    text-align: center;
+}
+
+#inizia-prova h2{
+    font-size: 45px;
+    color: #61082b;
+
+}
+
+#inizia-prova .btn>a{
+    background-color: white;
+    color: black;
+    padding: 15px 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* sezione footer */
+footer{
+    background-color: black;
+}
+
+
+
+/* colori assegnati a elementi*/
 
 .clr-greenblue{
     background-color: #a2d39b;
@@ -649,15 +695,6 @@ hr{
 .clr-yellow{
     background-color: #ffd830;
 }
-
-/* sezione footer */
-footer{
-    background-color: black;
-}
-
-
-
-
 
 
 
@@ -694,10 +731,10 @@ footer{
     background-color: green;
 } */
 
-.debug #inizia-prova{
+/* .debug #inizia-prova{
     height: 300px;
     background-color: pink;
-}
+} */
 
 .debug #domande{
     height: 600px;
