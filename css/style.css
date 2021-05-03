@@ -78,6 +78,10 @@ nav li:hover{
     display: block;
 }
 
+.footer-top li>a:hover{
+    text-decoration: underline;
+}
+
 
 /* sezione header */
 
@@ -674,6 +678,7 @@ hr{
 
 #domande ul:last-child{
     border-bottom: 1px solid lightgrey;
+    margin-bottom: 150px;
 }
 
 #domande li>i:nth-child(2){
@@ -689,19 +694,34 @@ hr{
 
 
 
-
-
-
-
-
-
-
-
 /* sezione footer */
 footer{
     background-color: black;
 }
 
+
+.footer-top .col-list{
+    width: calc(100% / 5);
+    padding-top: 150px;
+    float: left;
+}
+
+.footer-top h4{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+
+.footer-top li{
+    list-style: none;
+}
+
+.footer-top li>a{
+    color: white;
+    line-height: 2.5;
+    font-size: 14px;
+}
 
 
 /* colori assegnati a elementi*/
@@ -778,10 +798,10 @@ footer{
     background-color: pink;
 } */
 
-.debug #domande{
+/* .debug #domande{
     height: 600px;
     background-color: rgb(255, 147, 74);
-}
+} */
 
 
 .debug footer{
