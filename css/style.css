@@ -566,7 +566,7 @@ hr{
     
 .partner{
     width: 50%;
-    line-height: 30vh;
+    line-height: 33vh;
     text-align: center;
     float: left;
 }
@@ -582,11 +582,39 @@ hr{
     padding: 20px;
 }
 
+/* colori blocchi */
 
+.clr-greenblue{
+    background-color: #a2d39b;
+}
 
+.clr-bordeaux{
+    background-color: #61082b;
+}
 
+.clr-skyblue{
+    background-color: #0093ce;
+}
 
+.clr-red1{
+    background-color: #ff1c1c;
+}
 
+.clr-red2{
+    background-color: #d5001f;
+}
+
+.clr-lightblue{
+    background-color: #b4d0e7;
+}
+
+.clr-blue{
+    background-color: #0d2481;
+}
+
+.clr-yellow{
+    background-color: #ffd830;
+}
 
 /* sezione footer */
 footer{
@@ -658,6 +686,6 @@ footer{
     height: 500px;
 }
 
-.debug .partner{
+/* .debug .partner{
     background-color: black;
-}
+} */
