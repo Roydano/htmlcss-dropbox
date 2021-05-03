@@ -148,6 +148,24 @@ nav a{
     color: white;
 }
 
+/* sezione botton forum */
+.forum{
+    background-image: url(../img/ask.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #0d2481;
+    box-shadow: 2px 2px 5px;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+    z-index: 300;
+
+}
 
 
 /* sezione dropdown */
@@ -158,13 +176,11 @@ nav ul li{
 
 nav ul li ul{
     position: absolute;
-    top: 83px;
-    right: 335px;
-    width: 235px;
+    top: 83px;    
     display: none;
     text-align: left;
     background-color: white;
-    line-height: 4;
+    line-height: 2;
     padding: 15px 0;
     
 }
@@ -181,112 +197,16 @@ nav ul li ul li a{
 }
 
 
-/* .dropdown{
-    position: relative;
-    display: none;
-}
-.dropdown ul{
-    padding: 15px 0;
-}
-.dropdown li{
-    display: block;
-    margin: 0;
-}
+/* posizioni dropdown */
 
-.dropdown li>a{
-    font-size: 15px;
-    padding: 0 40px;
-    display: block;
-}
-
-
-.supporto{
-    position: absolute;
-    top: 2px;
-    left: -40px;
-    line-height: 3;
-    background-color: white;    
-    text-align: left;
+ul.supporto{
+    right: 335px;
     width: 235px;
-    
-} */
-
-/* sezione jumbotron prima della correzione
-
-.jumbotron{
-    
-    position: relative;
-    padding-bottom: 97px;
-
 }
 
-.jumbo-box{
-    
-    background-color: #b4d0e7;
-    padding: 150px 50px 0;
-    font-family: Arial, Helvetica, sans-serif;
-}
- 
-/* riga del titolo del jumbotron */
-/* .jumbo-box .row h1{
-    font-size: 70px;    
-    letter-spacing: -3px;
-    word-spacing: -9px;
-    font-stretch: extra-expanded;
-    margin-bottom: 30px;
-} */
-
-/* seconda riga del jumbotron */
-
-/* colonna di sinistra */
-
-/* .col-sx{
-    width: 30%;
-}
-
-.jumbo-box .col-sx p{
-    line-height: 26px;
-    font-size: 20px;
-    word-spacing: 8px;
 
 
-}
-
-.jumbo-box .col-sx .btn{
-    margin-top: 40px;
-}
-
-.jumbo-box .col-sx .btn a{
-    margin-left: 0;
-    font-size: 18px;
-}
-
-.jumbo-box .col-sx span{
-    display: inline-block;
-    margin-top: 20px;
-    
-}
-
-.jumbo-box .col-sx i{
-    margin-top: 60px;
-    padding-bottom: 60px;
-    font-size: 50px;
-
-} */
-
-/* colonna di destra */
-
-/* .col-dx{
-    width: 70%;
-}
-
-.jumbo-img{
-    position: absolute;   
-    right: 0;
-    bottom: 0;
-} */
-
-/* sezione jumbotron dopo la correzione */
+/* sezione jumbotron */
 
 .jumbotron{
     background-color: #b4d0e7;
