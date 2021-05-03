@@ -735,7 +735,8 @@ footer{
 }
 
 .language{
-    cursor:pointer
+    cursor:pointer;
+    line-height: 27px;
 }
 
 .footer-bottom hr{
@@ -747,7 +748,7 @@ footer{
     font-size: 25px;
     color: #c0c6cb;
     margin-right: 5px;
-    line-height: 25px;
+    
 }
 
 .foote-bottom span{
@@ -755,7 +756,7 @@ footer{
 }
 
 .footer-bottom i:last-of-type{
-    vertical-align: sub;
+    vertical-align: bottom;
 }
 
 
