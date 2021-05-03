@@ -233,7 +233,7 @@ nav a{
 
 .jumbo-text i{
     margin-top: 60px;
-    padding-bottom: 60px;
+    padding-bottom: 65px;
     font-size: 50px;
 }
 
@@ -608,15 +608,16 @@ hr{
     
 }
 
+
 .blocco.centrale img{
-    width: 40%;
+    width: 30%;
     margin-bottom: 10px;
     
 }
 
 .blocco.centrale p{
-    margin: 10px 0 40px;
-    line-height: 1.6;
+    margin: 10px 0 30px;
+    line-height: 1.3;
     font-size: 17px;
     
     
@@ -695,10 +696,13 @@ hr{
 
 
 /* sezione footer */
+
+
 footer{
     background-color: black;
 }
 
+/* footer top */
 
 .footer-top .col-list{
     width: calc(100% / 5);
@@ -722,6 +726,40 @@ footer{
     line-height: 2.5;
     font-size: 14px;
 }
+
+/* sezione footer-bottom*/
+
+.footer-bottom{
+    padding-top: 150px;
+    color: #666666;
+}
+
+.language{
+    cursor:pointer
+}
+
+.footer-bottom hr{
+    margin-bottom: 50px;
+}
+
+.footer-bottom i:first-of-type{
+    font-size: 25px;
+    line-height: 25px;
+    color: #c0c6cb;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+
+
+.footer-bottom i:last-of-type{
+    vertical-align: text-bottom;
+    color:red;
+}
+
+
+
+
 
 
 /* colori assegnati a elementi*/
